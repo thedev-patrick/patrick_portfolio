@@ -1,94 +1,56 @@
-# [NextJS Tailwind Portfolio Page](http://demos.creative-tim.com/nextjs-tailwind-portfolio-page?ref=readme-ntpp) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page&text=Check%20Material%20Tailwind%202%20Template%20made%20by%20@CreativeTim%20#webdesign%20#template%20#materialdesign%20#react%20https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page)
+# Portfolio Page - Built with Nest.js and Tailwind CSS
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/nextjs-tailwind-portfolio-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-portfolio-page/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/nextjs-tailwind-portfolio-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-portfolio-page/issues?q=is%3Aissue+is%3Aclosed)
+Welcome to my portfolio page! This project was created using Nest.js, a powerful Node.js framework, and Tailwind CSS, a utility-first CSS framework. 
 
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/739/original/material-tailwind-react-portfolio-template-thumbnail.jpg?1697615979)
+## Project Overview
 
-Introducing Tailwind Portfolio Page, a versatile and stylish portfolio template built on the foundation of Tailwind CSS and Patrick Oguamanam.
+This portfolio is a showcase of my work, skills, and experiences. It's designed to highlight my projects, provide information about me, and serve as a platform to connect with others in the tech community.
 
-Are you in search of a professionally designed and highly customizable portfolio web page template tailored for artists, designers, photographers, and creative professionals to showcase their work and establish a strong online presence? Look no further! We are excited to present to you our Free Portfolio Page Template, meticulously crafted to cater to the needs of portfolio website developers like you.
+### Features
 
-This template, designed with Tailwind CSS and Patrick Oguamanam, offers effortless customization to align perfectly with your website's unique branding. The free portfolio template boasts essential features such as hero, logo, testimonial, and features sections.
+- **Nest.js Backend**: Utilizes Nest.js to create a robust and scalable backend architecture.
+- **Tailwind CSS Styling**: Employed Tailwind CSS for responsive and clean UI design.
+- **Project Display**: Showcases my projects with detailed descriptions and links.
+- **About Me Section**: Offers insights into my background, skills, and interests.
+- **Contact Information**: Provides ways to get in touch with me.
 
-**Documentation built by Developers**
+## Getting Started
 
-Each element is well presented in very complex documentation.
+### Prerequisites
 
-You can read more about the [documentation here](https://www.material-tailwind.com/docs/react/installation).
+- Node.js and npm installed on your machine.
+- Nest.js CLI globally installed (`npm install -g @nestjs/cli`).
 
-**HELPFUL LINKS**
+### Installation
 
-- View [Github Repository](https://github.com/creativetimofficial/nextjs-tailwind-portfolio-page)
-- Check [FAQ Page](https://www.creative-tim.com/faq)
+1. Clone this repository: `git clone https://github.com/your-username/portfolio.git`
+2. Navigate to the project directory: `cd portfolio`
+3. Install dependencies: `npm install`
 
-## [Demo](https://creative-tim.com/product/nextjs-tailwind-portfolio-page)
+### Running the Application
 
-## Quick start
+- Run in development mode: `npm run start:dev`
+- Access the application: Open a browser and go to `http://localhost:3000`
 
-Quick start options:
+## Structure
 
-- Download from [Creative Tim](https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page?ref=readme-ntpp).
+The project structure follows a standard Nest.js application structure with additional folders for views, styles, and static assets.
 
-## Terminal Commands
+├── src
+│ ├── controllers // Nest.js controllers
+│ ├── modules // Nest.js modules
+│ ├── views // Frontend views (HTML, EJS, etc.)
+│ ├── styles // Tailwind CSS stylesheets
+│ └── public // Static assets (images, fonts, etc.)
+└── ...
 
-1. Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
-2. Navigate to the root ./ directory of the product and run `npm install` to install our local dependencies.
+## Contributing
 
-## Documentation
+Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or create a pull request.
 
-The documentation for the Material Dashboard is hosted at our [website](https://www.material-tailwind.com/docs/react/installation?ref=readme-ntpp).
+## Contact
 
-## Browser Support
+You can reach out to me via email at [your.email@example.com](mailto:your.email@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/yourusername).
 
-At present, we officially aim to support the last two versions of the following browsers:
-
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
-
-## Resources
-
-- [Live Preview](https://demos.creative-tim.com/nextjs-tailwind-portfolio-page?ref=readme-ntpp)
-- [Download Page](https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page?ref=readme-ntpp)
-- Documentation is [here](https://www.material-tailwind.com/docs/react/installation?ref=readme-ntpp)
-- [License Agreement](https://www.creative-tim.com/license?ref=readme-ntpp)
-- [Support](https://www.creative-tim.com/contact-us?ref=readme-ntpp)
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/nextjs-tailwind-portfolio-page/issues)
-- [Nepcha Analytics](https://nepcha.com?ref=readme) - Analytics tool for your website
-
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the Nextjs + Tailwind Portfolio Page. Here are some advices for our users that want to report an issue:
-
-1. Make sure that you are using the latest version of the Nextjs + Tailwind Portfolio Page. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page?ref=readme-ntpp).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
-
-## Technical Support or Questions
-
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-ntpp) instead of opening an issue.
-
-## Licensing
-
-- Copyright 2023 [Creative Tim](https://www.creative-tim.com?ref=readme-ntpp)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-ntpp)
-
-## Useful Links
-
-- [More products](https://www.creative-tim.com/templates?ref=readme-ntpp) from Creative Tim
-
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-ntpp) from Creative Tim
-
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-ntpp) (earn money)
-
-##### Social Media
-
-Twitter: <https://twitter.com/CreativeTim>
-
-Facebook: <https://www.facebook.com/CreativeTim>
-
-Dribbble: <https://dribbble.com/creativetim>
-
-Google+: <https://plus.google.com/+CreativetimPage>
-
-Instagram: <https://instagram.com/creativetimofficial>
+Thank you for checking out my portfolio! 🚀
+Feel free to adjust and add more details specific to your project and preferences!

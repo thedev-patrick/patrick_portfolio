@@ -27,7 +27,6 @@ const NAV_MENU = [
   {
     name: "Docs",
     icon: CommandLineIcon,
-    href: "https://www.material-tailwind.com/docs/react/installation",
   },
 ];
 
@@ -80,9 +79,8 @@ export function Navbar() {
           ))}
         </ul>
         <div className="hidden items-center gap-2 lg:flex">
-          <Button variant="text">Sign In</Button>
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
-            <Button color="gray">blocks</Button>
+          <a href="" target="_blank">
+            <Button color="gray">Schedule Interview</Button>
           </a>
         </div>
         <IconButton
@@ -109,9 +107,8 @@ export function Navbar() {
             ))}
           </ul>
           <div className="mt-6 mb-4 flex items-center gap-2">
-            <Button variant="text">Sign In</Button>
-            <a href="https://www.material-tailwind.com/blocks" target="_blank">
-              <Button color="gray">blocks</Button>
+            <a href="#" target="_blank">
+              <Button color="gray">Schedule Interview</Button>
             </a>
           </div>
         </div>

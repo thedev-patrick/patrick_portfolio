@@ -13,15 +13,14 @@ function Hero() {
             color="blue-gray"
             className="mb-4 lg:text-5xl !leading-tight text-3xl"
           >
-            Welcome to my Web <br /> Development Portofolio!
+            Patrick Oguamanam <br /> Software Engineer
           </Typography>
           <Typography
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            I&apos;m Patrick Oguamanam, a passionate web developer based in USA. Here,
-            you&apos;ll get a glimpse of my journey in the world of web
-            development, where creativity meets functionality.
+            I&apos;m Patrick Oguamanam, an experienced and motivated backend engineer (Node.JS, PHP, AWS, PostgreSQL) with over 7 years of proven expertise and a strong foundation in software development data structure and algorithms. Driven to deliver innovative solutions that enhance efficiency and customer satisfaction. Passionate about staying current with the latest technologies, and leveraging them to optimize systems.
+
           </Typography>
           <div className="grid">
             <Typography

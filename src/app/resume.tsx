@@ -12,15 +12,15 @@ import { ResumeItem } from "@/components";
 const RESUME_ITEMS = [
   {
     icon: ChartBarIcon,
-    children: "Bachelor of Science in Computer Science",
+    children: "Over 7 years working experience",
   },
   {
     icon: PuzzlePieceIcon,
-    children: "Certified Web Developer ",
+    children: "Recommended by Inernational Communities",
   },
   {
     icon: CursorArrowRaysIcon,
-    children: "Frontend Framework Proficiency Certification",
+    children: "Skilled Professional with valid Certifications",
   },
 ];
 

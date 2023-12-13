@@ -30,7 +30,7 @@ export function Resume() {
       <div className="container mx-auto grid w-full grid-cols-1 items-center gap-16 lg:grid-cols-2">
         <div className="col-span-1">
           <Typography variant="h2" color="blue-gray">
-            My Resume
+            Resume
           </Typography>
           <Typography className="mb-4 mt-3 w-9/12 font-normal !text-gray-500">
             Experienced and motivated backend engineer (Node.JS, PHP, AWS, PostgreSQL) with over 7 years of proven expertise and a strong foundation in software development data structure and algorithms. Driven to deliver innovative solutions that enhance efficiency and customer satisfaction. Passionate about staying current with the latest technologies, and leveraging them to optimize systems.
